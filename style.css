@@ -1,0 +1,12 @@
+body {
+    background-color: aquamarine;
+}
+
+.contact-form {
+    border: 5px solid green;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+}
