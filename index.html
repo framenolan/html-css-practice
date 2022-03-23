@@ -4,41 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>New Website Coming Soon</title>
 </head>
 <body>
     
     <header>
-        <ul>
-
+        <ul class="navbar">
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#contact-me">Contact</a></li>
         </ul>
     </header>
 
     <section>
-        <h1>My New Website</h1>
+        <div class="coming">
+            <h1>My New Website</h1>
 
-        <img src="./assets/coming-soon.png" alt="colored box with words Coming Soon">
+            <img src="./assets/coming-soon.png" alt="colored box with words Coming Soon">
 
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>  
+        </div>
 
+    
     </section>
 
     <section>
-        <h2>Contact Me</h2>
+        <div class="contact">
+            <h2>Contact Me</h2>
 
-        <div class="contact-form">
-            <form>
-                <fieldset>
-                  <p>
+            <form class="contact-form">
+                <p>
+                    
                     <label for="user_name">Name: </label>
                     <input type="text" name="user_name" id="user_name">
-                  </p>
-                  <p>
+                    <a id="contact-me"></a>
+                </p>
+                <p>
                     <label for="user_email">Email: </label>
                     <input type="text" name="user_email" id="user_email">
-                  </p>
-                </fieldset>
-              </form>
+                </p>
+                <button class="submit-button" type="button">
+                    Submit
+                </button>
+            </form>
         </div>
 
     </section>
